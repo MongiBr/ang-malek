@@ -1,0 +1,61 @@
+<div class="sidebar-container">
+  <div class="sidebar">
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="../../assets/img/ebankLogo4.png" />
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp">close</span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="adminDashboard">
+            <span class="material-icons-sharp">grid_view</span>
+            <h3>DashBoard</h3>
+          </a>
+
+          <a href="#">
+            <span class="material-icons-sharp">view_list</span>
+            <h3>Offers</h3>
+          </a>
+
+          <a routerLink="/portefeuille" routerLinkActive="active">
+            <span class="material-icons-sharp">view_list</span>
+            <h3>Portefeiulle Operation</h3>
+          </a>
+
+          <a href="#">
+            <span class="material-icons-sharp">grid_view</span>
+            <h3>Agency</h3>
+            <!--=============== <span class="message-count">2</span> ===============-->
+          </a>
+
+          <a href="#">
+            <span class="material-icons-sharp">grid_view</span>
+            <h3>Map</h3>
+            <!--=============== <span class="message-count">2</span> ===============-->
+          </a>
+
+          <a href="#">
+            <span class="material-icons-sharp">grid_view</span>
+            <h3>Chat</h3>
+            <!--=============== <span class="message-count">2</span> ===============-->
+          </a>
+
+          <a href="#">
+            <span class="material-icons-sharp">settings</span>
+            <h3>Settings</h3>
+          </a>
+
+          <a href="#" (click)="clearLocalStorage()">
+            <span class="material-icons-sharp">logout</span>
+            <h3>LogOut</h3>
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>

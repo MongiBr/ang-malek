@@ -1,0 +1,13 @@
+<ng-container *ngIf="route != '/home' && route != '/login'">
+  <div class="app-container">
+    <div class="app-sidebar">
+      <app-admin-sidebar></app-admin-sidebar>
+    </div>
+
+    <router-outlet></router-outlet>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="route == '/home' || route == '/login'">
+  <router-outlet></router-outlet>
+</ng-container>
